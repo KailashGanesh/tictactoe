@@ -4,24 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe</title>
-    <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>    
+    <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300;800&display=swap" rel="stylesheet"> 
+    <style>
+        body{
+            font-family: 'Recursive', sans-serif;
+        }
+        headder{
+            text-align: center;
+        }
+        .buttonHolder{
+            position: fixed;
+            top: 200px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            color: white;
+            flex-direction: column;
+        }
+        .button {
+            background-color: white;
+            border:  1px  black;
+            color: black;
+            padding: 25px 35px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            margin: 5px 2px;
+            cursor: pointer;
+            border-radius:  9px;
+      }
+      .button:hover{
+            background-color: black;
+            color: white;
+            border-color: white;
+        }
+    </style>
 </head>
 <body>
-    <div class="board" id="board">
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-        <div class="cell" data-cell></div>
-    </div>
-    <div class="winning-message" id="winning-message">
-        <div data-winning-message-text></div>
-        <button class="restartButton" id="restartButton">Restart</button>
+    <headder>
+    <h1>Tic Tac Toe</h1>
+    </headder>
+    <div class="buttonHolder">
+        <a class="button" href="">Single player</a><br>
+        <a class="button" href="multiplayer\multiplayer.html">Multiplayer</a> <br>
+        <a class="button" href="">Play with a friend</a>
     </div>
 </body>
 </html>
