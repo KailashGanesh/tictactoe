@@ -139,6 +139,7 @@ body{
     background-color: white;
     border: 1px solid black;
     padding: .25em .5em;
+    margin-top:5px; ;
     cursor: pointer;
 }
 .restartButton:hover{
