@@ -29,10 +29,6 @@ function startGame(){
       cell.removeEventListener('click', handleClick);
       cell.addEventListener('click', handleClick, { once: true });
     });
-
-    cellElements.forEach(cell => {
-        cell.addEventListener('click', handleClick, {once: true}) // only can click on one cell once
-    });
     winningMessageTextElement.innerText = '';
     winningMessageElement.classList.remove('show');
     setBoardHoverClass();
