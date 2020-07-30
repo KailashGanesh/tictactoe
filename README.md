@@ -1,6 +1,7 @@
 # Tic Tac Toe
 - A minimalistic tic tac toe website with single player, multiplayer and online play with friends.  
-- uses Css and Javascript for Multiplayer, minimax algorithm for the single player, node.js server for online play.  
+- uses CSS and JavaScript for Multiplayer, minimax algorithm for the single player, node.js server for online play.  
+[Live demo](https://kailashganesh.github.io/tictactoe/index.html)
 
 ## TODO
 - [x] Main page
