@@ -6,6 +6,6 @@
 - [x] Main page
 - [x] Over the board Multiplayer
 - [x] single player with minimax
-- [] Online multiplayer with Node.js server 
-- [] Hamburger menu to leave to main menu or restart
-- [] alpha-beta pruning & depth to make algorithm more efficient
+- [ ] Online multiplayer with Node.js server 
+- [ ] Hamburger menu to leave to main menu or restart
+- [ ] alpha-beta pruning & depth to make algorithm more efficient
